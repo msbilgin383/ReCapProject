@@ -53,7 +53,7 @@ namespace DataAccess.Concrete
             return _cars.Where(c => c.Id == id).FirstOrDefault();
         }
 
-        public List<CarDetailDto> GetCarDetails()
+        public List<CarDetailDto> GetCarDetails(Expression<Func<Car, bool>> filter = null)
         {
             throw new NotImplementedException();
         }
