@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -14,5 +15,6 @@ namespace Business.Constants
         public static string RentalAdded = "Araç başarıya kiralandı";
         public static string SuccesfullyDeleted = "Başarıyla silindi";
         public static string UserAdded = "Kullanıcı eklendi";
+        public static string AuthorizationDenied = "Erişim reddedildi";
     }
 }
