@@ -16,5 +16,7 @@ namespace Business.Constants
         public static string SuccesfullyDeleted = "Başarıyla silindi";
         public static string UserAdded = "Kullanıcı eklendi";
         public static string AuthorizationDenied = "Erişim reddedildi";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Yanlış parola";
     }
 }
